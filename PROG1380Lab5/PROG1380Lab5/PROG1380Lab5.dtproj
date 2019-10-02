@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">M21217C0500</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA++MxWtLDt0y8/vvs2aTd3wAAAAACAAAAAAADZgAAwAAAABAAAAD/Da+qDVjlEvemLAsWerD4AAAAAASAAACgAAAAEAAAACrbbpwbP1WzxIC91bJMxS+IAAAAC5CBRAVxjzf+5it70XyHBprg8mk4tSUEyEuSfw6y27f9VE6Y2qeZhVw5MIhqbdKekuhOzsYdxhVEBUAPheGc/mLxKD0IZNo9hb9GFP4PrcSO+cte9Us3pa+3bE/uCHgaP5b6Fta/2DQJ9hqEMag5SpJ7oxKY+JD31/ROgZ61KSjtILCno6yr8hQAAAARYi3FQuEJq6t8pjVbWzs7rQXVxQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsDrpBqlasECXKNrijs+lnwAAAAACAAAAAAADZgAAwAAAABAAAABsfEKf5TZotjfqlrtj5ATJAAAAAASAAACgAAAAEAAAAJF7cT/Gzn6tlBYYeN4a0pSIAAAAhyHZNPcsKxN8tuWSC+f1MCG7LcmnldGuLfmaOnbE1uy9YBB+yASYfqCqzSpVX/Glpg83J/UDYl0kAXdcAAp43MsbD9lhmrZr0QwW8KkFWCBsOMYSaR6nL5GRLXYsF4sJWbCC1eUsapYupJUz0rliB39Sbw2QQKcZgtRdR5JVA4HNRRd0ZmVp+BQAAABBDH0QHv30tiX6q/O4Vuyll+JgdQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -166,10 +166,10 @@
                 <SSIS:Property SSIS:Name="Name">02-00-Master-Transform-Load</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E9675D2C-1BBC-4B14-93C6-F2A109DB773A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E78D61D6-4DD3-4F81-B721-69846FE5EE13}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -183,10 +183,10 @@
                 <SSIS:Property SSIS:Name="Name">02-01-Course-Transform-Load</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E7E883E6-C5E9-4010-B0DA-CF52E10E6135}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2941E7FB-8643-48FE-8E7D-81D6343701D9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -265,21 +265,6 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-                  </SSIS:Properties>
-                </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.ConnectionString">
-                  <SSIS:Properties>
-                    <SSIS:Property SSIS:Name="ID">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="CreationName">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Administrator\Desktop\[Dimension].[Course].txt</SSIS:Property>
-                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.DataRowsToSkip">
@@ -412,10 +397,10 @@
                 <SSIS:Property SSIS:Name="Name">02-02-Student-Transform-Load</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">28</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{263939C8-DD72-428E-AF3B-55494AB12322}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2E2B1669-AC13-45EA-8ED3-2AB11D34ED90}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -494,21 +479,6 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-                  </SSIS:Properties>
-                </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.ConnectionString">
-                  <SSIS:Properties>
-                    <SSIS:Property SSIS:Name="ID">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="CreationName">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\Administrator\Desktop\[Dimension].[Course].txt</SSIS:Property>
-                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.DataRowsToSkip">
