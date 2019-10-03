@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="02-02-Student-Transform-Load"
   DTS:PackageType="5"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{2E2B1669-AC13-45EA-8ED3-2AB11D34ED90}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{0821B45B-5371-4B01-AEF0-FD8BFFB18EBA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentID"
-              DTS:DTSID="{E21666B4-79DE-4E12-9157-A6C5929C2CD4}"
+              DTS:DTSID="{CAAAD585-79AB-41BC-B2FE-2A740154BAB0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentFirstName"
-              DTS:DTSID="{AB625CC4-89DA-450D-9E0C-5AF741C3F96D}"
+              DTS:DTSID="{B38F86C0-FCD6-4775-B240-80B428282A2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentLastName"
-              DTS:DTSID="{D69CC9BF-33F5-4310-9491-97F8DCD29939}"
+              DTS:DTSID="{BD4EAD58-B51F-4800-96C6-166D6851ED15}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentDOB"
-              DTS:DTSID="{9DB7BCBA-2415-40A0-9C91-487C7444748C}"
+              DTS:DTSID="{83516CF1-5FF1-43BF-99AB-58E8551CBC47}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentGender"
-              DTS:DTSID="{53FAD7E6-1340-47FB-AF0C-8E49CF4A3FAF}"
+              DTS:DTSID="{40D4E02F-AF4F-462D-B51B-25B8FD0D83AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentAddress"
-              DTS:DTSID="{1693EC0C-388B-4AF2-8BB9-6330720B1CE4}"
+              DTS:DTSID="{AB4A60BD-0811-425E-BB7E-5BD652C80FED}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentCity"
-              DTS:DTSID="{716F20CB-A13D-48DD-89DB-5F9CD84D3C8A}"
+              DTS:DTSID="{BF0CA87B-8CCD-413D-9F57-0CD231C8C76E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentPostalCode"
-              DTS:DTSID="{214663CB-1CEE-4B7E-AC62-892E7C67E2DC}"
+              DTS:DTSID="{961458D3-70BB-4516-B84F-22492BFE8D97}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StudentPhoneNumber"
-              DTS:DTSID="{E84A3652-DBB6-4A9B-BF5A-7D880F07F859}"
+              DTS:DTSID="{970EFECF-1A73-40FB-A3F2-15CCC998D45E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -119,7 +119,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StateAbbreviation"
-              DTS:DTSID="{4D093EFF-BB8D-4D33-BFAA-A1D46374185C}"
+              DTS:DTSID="{C80181B0-8293-4EC2-80AB-BBABEA7146D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -127,7 +127,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="AuditKey"
-              DTS:DTSID="{2E8D7497-60AB-43E2-8CF4-2303490477B9}"
+              DTS:DTSID="{5EE051E7-55B7-4B09-90F3-42F47B918D35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,7 +135,16 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="ValidFrom"
-              DTS:DTSID="{5E9C1EB2-1902-4C7B-89B9-A75FB4D10DF4}"
+              DTS:DTSID="{FA796D39-97EC-4089-9A3D-88FD074595A6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StateName"
+              DTS:DTSID="{72C33BCD-CC8B-4F71-B33F-9C7645F2FECD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -143,7 +152,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{E4DFAD99-6AA3-4E77-AAE4-79F058E23A3E}"
+              DTS:DTSID="{4EE2F836-0101-4DFF-BBF1-CC86F759D1E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -151,7 +160,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{705BD75E-4C8C-419D-A960-FBB2AFD0067E}"
+              DTS:DTSID="{4B659726-8E7B-4F6E-A007-3AE35C7D1D05}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -428,6 +437,15 @@
                   refId="Package\DFT Transform-Load\Derived Column 1.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\Derived Column 1.Inputs[Derived Column Input].Columns[StudentPhoneNumber]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="StudentPhoneNumber"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPhoneNumber]" />
+                  </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -461,6 +479,29 @@
                           name="FriendlyExpression">(DT_DBDATE)(@[System::StartTime])</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Output].Columns[AreaCode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="3"
+                      lineageId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Output].Columns[AreaCode]"
+                      name="AreaCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[LEFT](#{Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPhoneNumber]},3)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">LEFT(StudentPhoneNumber,3)</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -482,6 +523,396 @@
                       refId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DFT Transform-Load\FF Errors"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="FF Errors">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT Transform-Load\FF Errors.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentID]"
+                      cachedDataType="i8"
+                      cachedName="StudentID"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentID]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentID]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentFirstName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="StudentFirstName"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentFirstName]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentFirstName]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentLastName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="StudentLastName"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentLastName]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentLastName]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentDOB]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="StudentDOB"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentDOB]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentDOB]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentGender]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="StudentGender"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentGender]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentGender]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentAddress]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="StudentAddress"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentAddress]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentAddress]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentCity]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="StudentCity"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentCity]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentCity]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentPostalCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="StudentPostalCode"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentPostalCode]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPostalCode]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StudentPhoneNumber]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="StudentPhoneNumber"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentPhoneNumber]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPhoneNumber]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StateAbbreviation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="2"
+                      cachedName="StateAbbreviation"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StateAbbreviation]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StateAbbreviation]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[AuditKey]"
+                      cachedDataType="i4"
+                      cachedName="AuditKey"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[AuditKey]"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[AuditKey]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[ValidFrom]"
+                      cachedDataType="dbDate"
+                      cachedName="ValidFrom"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ValidFrom]"
+                      lineageId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Output].Columns[ValidFrom]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[StateName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="StateName"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StateName]"
+                      lineageId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output].Columns[StateName]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\DFT Transform-Load\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\DFT Transform-Load\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentID]"
+                      dataType="i8"
+                      name="StudentID" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentFirstName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="StudentFirstName" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentLastName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="StudentLastName" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentDOB]"
+                      dataType="dbTimeStamp"
+                      name="StudentDOB" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentGender]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="StudentGender" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentAddress]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="StudentAddress" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentCity]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="StudentCity" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentPostalCode]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="StudentPostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StudentPhoneNumber]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="StudentPhoneNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StateAbbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="2"
+                      name="StateAbbreviation" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[AuditKey]"
+                      dataType="i4"
+                      name="AuditKey" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ValidFrom]"
+                      dataType="dbDate"
+                      name="ValidFrom" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[StateName]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="StateName" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\DFT Transform-Load\FK Lookup"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="FK Lookup"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [Staging].[DimState]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [Staging].[DimState]) [refTable]
+where [refTable].[StateAbbreviation] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="StateAbbreviation" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="StateName" dataType="DT_STR" length="100" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\DFT Transform-Load\OLE DB Source.Outputs[OLE DB Source Output].Columns[StateAbbreviation]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DFT Transform-Load\FK Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="{1487797B-3B48-4677-964F-B7BB091A2D87}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[192.168.40.206.svanderest1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input].Columns[StateAbbreviation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="2"
+                      cachedName="StateAbbreviation"
+                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StateAbbreviation]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">StateAbbreviation</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output].Columns[StateName]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="100"
+                      lineageId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output].Columns[StateName]"
+                      name="StateName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">StateName</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -622,22 +1053,6 @@
                       externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StudentPostalCode]"
                       lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPostalCode]" />
                     <inputColumn
-                      refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].Columns[StateAbbreviation]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="2"
-                      cachedName="StateAbbreviation"
-                      externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateName]"
-                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StateAbbreviation]" />
-                    <inputColumn
-                      refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].Columns[StudentPhoneNumber]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="10"
-                      cachedName="StudentPhoneNumber"
-                      externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StudentAreaCode]"
-                      lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[StudentPhoneNumber]" />
-                    <inputColumn
                       refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].Columns[ValidFrom]"
                       cachedDataType="dbDate"
                       cachedName="ValidFrom"
@@ -649,6 +1064,21 @@
                       cachedName="AuditKey"
                       externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[AuditKey]"
                       lineageId="Package\DFT Transform-Load\Union All.Outputs[Union All Output 1].Columns[AuditKey]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].Columns[AreaCode]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="AreaCode"
+                      externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StudentAreaCode]"
+                      lineageId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Output].Columns[AreaCode]" />
+                    <inputColumn
+                      refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].Columns[StateName]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="100"
+                      cachedName="StateName"
+                      externalMetadataColumnId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateName]"
+                      lineageId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output].Columns[StateName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -708,8 +1138,7 @@
                       name="StateName" />
                     <externalMetadataColumn
                       refId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StudentAreaCode]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="50"
                       name="StudentAreaCode" />
                     <externalMetadataColumn
@@ -1287,7 +1716,7 @@
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
-                  name="UpdateChangingAttributeHistory">true</property>
+                  name="UpdateChangingAttributeHistory">false</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
@@ -1337,7 +1766,7 @@
                         <property
                           dataType="System.Int32"
                           name="ColumnType"
-                          typeConverter="ColumnType">3</property>
+                          typeConverter="ColumnType">4</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -2054,7 +2483,7 @@
               startId="Package\DFT Transform-Load\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\DFT Transform-Load.Paths[Derived Column Output2]"
-              endId="Package\DFT Transform-Load\RC Insert.Inputs[Row Count Input 1]"
+              endId="Package\DFT Transform-Load\FK Lookup.Inputs[Lookup Input]"
               name="Derived Column Output"
               startId="Package\DFT Transform-Load\Derived Column 1.Outputs[Derived Column Output]" />
             <path
@@ -2062,6 +2491,11 @@
               endId="Package\DFT Transform-Load\Derived Column.Inputs[Derived Column Input]"
               name="Historical Attribute Inserts Output"
               startId="Package\DFT Transform-Load\SDC Type 2.Outputs[Historical Attribute Inserts Output]" />
+            <path
+              refId="Package\DFT Transform-Load.Paths[Lookup Match Output]"
+              endId="Package\DFT Transform-Load\RC Insert.Inputs[Row Count Input 1]"
+              name="Lookup Match Output"
+              startId="Package\DFT Transform-Load\FK Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\DFT Transform-Load.Paths[New Output]"
               endId="Package\DFT Transform-Load\Union All.Inputs[Union All Input 1]"
@@ -2092,6 +2526,11 @@
               endId="Package\DFT Transform-Load\Insert Destination.Inputs[OLE DB Destination Input]"
               name="Row Count Output 1"
               startId="Package\DFT Transform-Load\RC Insert.Outputs[Row Count Output 1]" />
+            <path
+              refId="Package\DFT Transform-Load.Paths[Row Count Output 12]"
+              endId="Package\DFT Transform-Load\FF Errors.Inputs[Flat File Destination Input]"
+              name="Row Count Output 1"
+              startId="Package\DFT Transform-Load\RC Error.Outputs[Row Count Output 1]" />
             <path
               refId="Package\DFT Transform-Load.Paths[Union All Output 1]"
               endId="Package\DFT Transform-Load\Derived Column 1.Inputs[Derived Column Input]"
@@ -2505,52 +2944,36 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="122,42"
-          Id="Package\DFT Transform-Load\RC Error"
-          TopLeft="191,821.5" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\DFT Transform-Load\OLE DB Source"
-          TopLeft="377.5,5.5" />
-        <NodeLayout
-          Size="165,42"
-          Id="Package\DFT Transform-Load\Insert Destination"
-          TopLeft="373.5,821.5" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\DFT Transform-Load\Derived Column"
-          TopLeft="237,413.5" />
+          Size="132,42"
+          Id="Package\DFT Transform-Load\FK Lookup"
+          TopLeft="702.5,660.5" />
         <NodeLayout
           Size="139,42"
           Id="Package\DFT Transform-Load\SDC Type 2"
-          TopLeft="386.5,311.5" />
-        <NodeLayout
-          Size="123,42"
-          Id="Package\DFT Transform-Load\Union All"
-          TopLeft="394.5,617.5" />
+          TopLeft="390,311.5" />
         <NodeLayout
           Size="125,42"
           Id="Package\DFT Transform-Load\RC Insert"
-          TopLeft="592.5,777.5" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\DFT Transform-Load\OLE DB Command"
-          TopLeft="221.5,515.5" />
-        <NodeLayout
-          Size="167,42"
-          Id="Package\DFT Transform-Load\Derived Column 1"
-          TopLeft="372.5,719.5" />
-        <NodeLayout
-          Size="167,42"
-          Id="Package\DFT Transform-Load\DC Add Audit Key"
-          TopLeft="372.5,209.5" />
+          TopLeft="706,762.5" />
         <NodeLayout
           Size="132,42"
           Id="Package\DFT Transform-Load\RC Extract"
-          TopLeft="390,107.5" />
+          TopLeft="393.5,107.5" />
+        <NodeLayout
+          Size="122,42"
+          Id="Package\DFT Transform-Load\RC Error"
+          TopLeft="194.5,821.5" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\DFT Transform-Load\OLE DB Source"
+          TopLeft="381,5.5" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\DFT Transform-Load\DC Add Audit Key"
+          TopLeft="376,209.5" />
         <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[Union All Output 1]"
-          TopLeft="456,659.5">
+          Id="Package\DFT Transform-Load.Paths[OLE DB Source Output]"
+          TopLeft="459.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2571,31 +2994,43 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[Row Count Output 11]"
-          TopLeft="592.5,804.166666666667">
+          Id="Package\DFT Transform-Load.Paths[Lookup Match Output]"
+          TopLeft="768.5,702.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-54,38.3333333333334"
+              EndConnector="0,60"
               Start="0,0"
-              End="-46.5,38.3333333333334">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-18.7889908256881,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-18.7889908256881,0"
-                    Point2="-22.7889908256881,0"
-                    Point3="-22.7889908256881,4" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[Derived Column Output]"
+          TopLeft="459.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="-22.7889908256881,34.3333333333334" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-22.7889908256881,34.3333333333334"
-                    Point2="-22.7889908256881,38.3333333333334"
-                    Point3="-26.7889908256881,38.3333333333334" />
-                  <mssgle:LineSegment
-                    End="-46.5,38.3333333333334" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2606,7 +3041,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT Transform-Load.Paths[Row Count Output 1]"
-          TopLeft="456,149.5">
+          TopLeft="459.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2626,113 +3061,13 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[OLE DB Source Output]"
-          TopLeft="456,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[OLE DB Destination Error Output]"
-          TopLeft="373.5,842.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-60.5,0"
-              Start="0,0"
-              End="-53,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-53,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.70890625,5,146.4178125,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[OLE DB Command Output]"
-          TopLeft="308,557.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="128.833333333333,60"
-              Start="0,0"
-              End="128.833333333333,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.53772070626" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.53772070626"
-                    Point2="0,35.53772070626"
-                    Point3="4,35.53772070626" />
-                  <mssgle:LineSegment
-                    End="124.833333333333,35.53772070626" />
-                  <mssgle:CubicBezierSegment
-                    Point1="124.833333333333,35.53772070626"
-                    Point2="128.833333333333,35.53772070626"
-                    Point3="128.833333333333,39.53772070626" />
-                  <mssgle:LineSegment
-                    End="128.833333333333,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[New Output]"
-          TopLeft="476.5,353.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,264"
-              Start="0,0"
-              End="0,256.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,256.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,122.533203125,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\DFT Transform-Load\Derived Column"
+          TopLeft="240.5,413.5" />
         <EdgeLayout
           Id="Package\DFT Transform-Load.Paths[Historical Attribute Inserts Output]"
-          TopLeft="434.166666666667,353.5">
+          TopLeft="437.666666666667,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2766,43 +3101,13 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[Derived Column Output2]"
-          TopLeft="539.5,740.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="53,52.3333333333334"
-              Start="0,0"
-              End="45.5,52.3333333333334">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="26.6330275229357,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="26.6330275229357,0"
-                    Point2="30.6330275229357,0"
-                    Point3="30.6330275229357,4" />
-                  <mssgle:LineSegment
-                    End="30.6330275229357,48.3333333333334" />
-                  <mssgle:CubicBezierSegment
-                    Point1="30.6330275229357,48.3333333333334"
-                    Point2="30.6330275229357,52.3333333333334"
-                    Point3="34.6330275229357,52.3333333333334" />
-                  <mssgle:LineSegment
-                    End="45.5,52.3333333333334" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="173,42"
+          Id="Package\DFT Transform-Load\OLE DB Command"
+          TopLeft="225,515.5" />
         <EdgeLayout
           Id="Package\DFT Transform-Load.Paths[Derived Column Output1]"
-          TopLeft="316,455.5">
+          TopLeft="319.5,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2834,9 +3139,75 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="123,42"
+          Id="Package\DFT Transform-Load\Union All"
+          TopLeft="398,617.5" />
         <EdgeLayout
-          Id="Package\DFT Transform-Load.Paths[Derived Column Output]"
-          TopLeft="456,251.5">
+          Id="Package\DFT Transform-Load.Paths[New Output]"
+          TopLeft="480,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,264"
+              Start="0,0"
+              End="0,256.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,256.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-27.09138671875,122.533203125,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[OLE DB Command Output]"
+          TopLeft="311.5,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="128.833333333333,60"
+              Start="0,0"
+              End="128.833333333333,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.53772070626" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.53772070626"
+                    Point2="0,35.53772070626"
+                    Point3="4,35.53772070626" />
+                  <mssgle:LineSegment
+                    End="124.833333333333,35.53772070626" />
+                  <mssgle:CubicBezierSegment
+                    Point1="124.833333333333,35.53772070626"
+                    Point2="128.833333333333,35.53772070626"
+                    Point3="128.833333333333,39.53772070626" />
+                  <mssgle:LineSegment
+                    End="128.833333333333,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="167,42"
+          Id="Package\DFT Transform-Load\Derived Column 1"
+          TopLeft="376,719.5" />
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[Union All Output 1]"
+          TopLeft="459.5,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2856,27 +3227,171 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="165,42"
+          Id="Package\DFT Transform-Load\Insert Destination"
+          TopLeft="377,821.5" />
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[Derived Column Output2]"
+          TopLeft="543,740.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="159.5,-59"
+              Start="0,0"
+              End="152,-59">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="75.75,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="75.75,0"
+                    Point2="79.75,0"
+                    Point3="79.75,-4" />
+                  <mssgle:LineSegment
+                    End="79.75,-55" />
+                  <mssgle:CubicBezierSegment
+                    Point1="79.75,-55"
+                    Point2="79.75,-59"
+                    Point3="83.75,-59" />
+                  <mssgle:LineSegment
+                    End="152,-59" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[Row Count Output 11]"
+          TopLeft="706,783.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-164,59"
+              Start="0,0"
+              End="-156.5,59">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-78,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-78,0"
+                    Point2="-82,0"
+                    Point3="-82,4" />
+                  <mssgle:LineSegment
+                    End="-82,55" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-82,55"
+                    Point2="-82,59"
+                    Point3="-86,59" />
+                  <mssgle:LineSegment
+                    End="-156.5,59" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[OLE DB Destination Error Output]"
+          TopLeft="377,842.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-60.5,0"
+              Start="0,0"
+              End="-53,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-53,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.70890625,5,146.4178125,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="125,42"
+          Id="Package\DFT Transform-Load\FF Errors"
+          TopLeft="48,709" />
+        <EdgeLayout
+          Id="Package\DFT Transform-Load.Paths[Row Count Output 12]"
+          TopLeft="255.5,821.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-145,-70.5"
+              Start="0,0"
+              End="-145,-63">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-31.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-31.25"
+                    Point2="0,-35.25"
+                    Point3="-4,-35.25" />
+                  <mssgle:LineSegment
+                    End="-141,-35.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-141,-35.25"
+                    Point2="-145,-35.25"
+                    Point3="-145,-39.25" />
+                  <mssgle:LineSegment
+                    End="-145,-63" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\DFT Transform-Load\OLE DB Source">
+    design-time-name="Package\DFT Transform-Load\FK Lookup">
     <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[Staging].[DimState]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DFT Transform-Load\Insert Destination">
+    design-time-name="Package\DFT Transform-Load\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -2895,7 +3410,7 @@
       &lt;IdentificationString&gt;DC Add Audit Key.Outputs[Derived Column Output].Columns[AuditKey]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;AuditKey&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
       &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[StudentID]&lt;/IdentificationString&gt;
@@ -2966,7 +3481,7 @@
     &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
   &lt;/GeneratedComponentsIdentificationStrings&gt;
   &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;true&lt;/FailChangeAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
   &lt;UseStartEndDate&gt;true&lt;/UseStartEndDate&gt;
   &lt;CurrentIndicatorColumn /&gt;
   &lt;InferredIndicatorColumn /&gt;
@@ -2977,6 +3492,19 @@
   &lt;DateVariable&gt;System::StartTime&lt;/DateVariable&gt;
   &lt;EnableInferredSupport&gt;false&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DFT Transform-Load\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

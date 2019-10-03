@@ -2,23 +2,28 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>PROG1380Lab5</Name>
-    <LastWriteTime>2019-10-02T18:02:51.9902527Z</LastWriteTime>
+    <LastWriteTime>2019-10-03T16:13:41.0869406Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>02-00-Master-Transform-Load.dtsx</Name>
-      <LastWriteTime>2019-10-02T17:46:01.1945384Z</LastWriteTime>
+      <LastWriteTime>2019-10-03T16:10:35.546246Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>02-01-Course-Transform-Load.dtsx</Name>
-      <LastWriteTime>2019-10-02T18:02:48.4015564Z</LastWriteTime>
+      <LastWriteTime>2019-10-03T13:33:39.2367363Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>02-02-Student-Transform-Load.dtsx</Name>
-      <LastWriteTime>2019-10-02T18:02:01.4307303Z</LastWriteTime>
+      <LastWriteTime>2019-10-03T15:06:53.6647874Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>02-03-Enrollment-Transform-Load.dtsx</Name>
+      <LastWriteTime>2019-10-03T16:13:41.0619416Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
